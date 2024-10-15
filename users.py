@@ -88,3 +88,10 @@ def search_user(id: int):
   except:
     return {"Error":"Usuario No encontrado"}
 
+  """
+  Pasos para subir repositorios a github
+  git init
+  git remote add origin https://github.com/MarioPerezV/PythonBackend.git
+  git status
+  
+  """
