@@ -93,5 +93,8 @@ def search_user(id: int):
   git init
   git remote add origin https://github.com/MarioPerezV/PythonBackend.git
   git status
+  git add . # o enviar la direccion del directorio
+  git commit -m "configurando repositorio remoto github"
+  git stattus
   
   """
