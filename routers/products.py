@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 
 router = APIRouter(prefix="/products",tags=["products"], responses={404: {"mensaje":"No encontrado"}})
+# tags es para la documentacion de Swegger o Redoc
 
 product_list=[{"id":"1", "product_name":"1", "cant":7},
             {"id":"2", "product_name":"2", "cant":37},
